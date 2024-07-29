@@ -21,8 +21,18 @@
         text-align: left;
       }
       .redbni {
-        color: #cf2130;
+        color: #01888a;
       }
+      .circular-image {
+      
+        border-radius: 50%; /* Hace que el contenedor sea un círculo */
+        overflow: hidden; /* Asegura que la imagen no se salga del contenedor redondeado */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+
     </style>
   </head>
   <body class="is-preload">
@@ -31,13 +41,18 @@
       <!-- Intro -->
       <div id="intro">
         <h1>Gloria Martínez <br /></h1>
-        <p>Soy más natural</p>
+        <p>Asesora de Bienestar</p>
+        <p style="font-size: 25px">
+          Soy Más Natural, distribuidora autorizada de la marca
+          <strong>BLEN</strong>, productos de herbolaria. "La herbolaria más
+          cerca de tí"
+        </p>
         <ul class="actions">
           <li>
             <a
               href="#header"
               class="button icon solid solo fa-arrow-down scrolly"
-              >Continue</a
+              >Continuar</a
             >
           </li>
         </ul>
@@ -61,16 +76,21 @@
               ><span class="label">Facebook</span></a
             >
 
-			<a
-			href="https://www.instagram.com/soymasnaturalcdmx/"
-			class="icon brands fa-instagram"
-			><span class="label">Instagram</span></a
-		  >
-		  <a
-			href="https://soymasnatural.com.mx/"
-			class="icon solid fa-shopping-cart"
-			><span class="label">Website</span></a
-		  >
+            <a
+              href="https://www.instagram.com/soymasnaturalcdmx/"
+              class="icon brands fa-instagram"
+              ><span class="label">Instagram</span></a
+            >
+            <a
+              href="https://soymasnatural.com.mx/"
+              class="icon solid fa-shopping-cart"
+              ><span class="label">Website</span></a
+            >
+            <a
+            href="https://wa.me/5215518353339"
+            class="icon brands fa-whatsapp"
+            ><span class="label">Whatsapp</span></a
+          >
           </li>
         </ul>
       </nav>
@@ -132,7 +152,7 @@
 
           <article>
             <a href="#" class="image fit"
-              ><img src="images/gloria.jpeg" alt=""
+              ><img src="images/gloria.jpeg" alt="" class="circular-image"
             /></a>
             <div class="texto1">
               <hr />
@@ -348,7 +368,7 @@
             </div>
           </article>
         </section>
-       <!--
+        <!--
         <section class="post">
           <span class="redbni" style="font-size: 24px; font-weight: bold"
             >PRODUCTO ESTRELLA</span
@@ -475,10 +495,11 @@
 	-->
         <div>
           <div style="text-align: center">
-			<a href="https://soymasnatural.com.mx/" target="_blank"
-			>Tienda en linea</a> <BR>
-Envíos por mensajería en la CDMX e interior de la República 
-
+            <a href="https://soymasnatural.com.mx/" target="_blank"
+              >Tienda en linea</a
+            >
+            <br />
+            Envíos por mensajería en la CDMX e interior de la República
           </div>
         </div>
       </div>

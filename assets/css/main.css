@@ -1,11 +1,14 @@
 @import url(fontawesome-all.min.css);
-@import url("https://fonts.googleapis.com/css?family=Merriweather:300,700,300italic,700italic|Source+Sans+Pro:900");
+@font-face {
+    font-family: 'Ebrima';
+    src: url('/assets/Ebrima/WebFonts/woff2.woff2') format('woff2'),
+         url('/assets/Ebrima/WebFonts/woff.woff') format('woff'),
+         url('/assets/Ebrima/WebFonts/ttf.ttf') format('truetype'),
+         url('/assets/Ebrima/WebFonts/eot.eot'); /* Aquí se puede incluir eot para soporte de IE */
+    font-weight: normal;
+    font-style: normal;
+}
 
-/*
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -30,6 +33,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;}
 
 body {
+	font-family: 'Ebrima', sans-serif;
 	line-height: 1;
 }
 
@@ -148,7 +152,7 @@ input, select, textarea {
 	}
 
 	body, input, select, textarea {
-		font-family: "Merriweather", Georgia, serif;
+		font-family: 'Ebrima', sans-serif;
 		font-weight: 300;
 		font-size: 1rem;
 		line-height: 2.375;
@@ -181,7 +185,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-family: 'Ebrima', sans-serif;
 		font-weight: 900;
 		line-height: 1.5;
 		letter-spacing: 0.075em;
@@ -2078,7 +2082,7 @@ input, select, textarea {
 		border-radius: 0;
 		cursor: pointer;
 		display: inline-block;
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-family: 'Ebrima', sans-serif;
 		font-size: 0.8rem;
 		font-weight: 900;
 		letter-spacing: 0.075em;
@@ -2313,7 +2317,7 @@ input, select, textarea {
 
 	label {
 		display: block;
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-family: 'Ebrima', sans-serif;
 		font-weight: 900;
 		line-height: 1.5;
 		letter-spacing: 0.075em;
@@ -2407,7 +2411,7 @@ input, select, textarea {
 			display: inline-block;
 			font-size: 1rem;
 			letter-spacing: 0;
-			font-family: "Merriweather", Georgia, serif;
+			font-family: 'Ebrima', sans-serif;
 			text-transform: none;
 			font-weight: 300;
 			padding-left: 2.8rem;
@@ -2425,7 +2429,7 @@ input, select, textarea {
 				text-rendering: auto;
 				line-height: 1;
 				text-transform: none !important;
-				font-family: 'Font Awesome 5 Free';
+				font-family: 'Ebrima', sans-serif;
 				font-weight: 900;
 			}
 
@@ -3023,7 +3027,7 @@ input, select, textarea {
 		}
 
 		table th {
-			font-family: "Source Sans Pro", Helvetica, sans-serif;
+			font-family: 'Ebrima', sans-serif;
 			font-size: 0.8rem;
 			font-weight: 900;
 			letter-spacing: 0.075em;
@@ -3566,7 +3570,7 @@ input, select, textarea {
 			border-style: solid;
 			border-color: #ffffff;
 			border-width: 5px !important;
-			font-family: "Source Sans Pro", Helvetica, sans-serif;
+			font-family: 'Ebrima', sans-serif;
 			font-size: 2.25rem;
 			font-weight: 900;
 			letter-spacing: 0.075em;
@@ -3691,7 +3695,7 @@ input, select, textarea {
 			-webkit-flex-shrink: 1;
 			-ms-flex-shrink: 1;
 			flex-shrink: 1;
-			font-family: "Source Sans Pro", Helvetica, sans-serif;
+			font-family: 'Ebrima', sans-serif;
 			font-weight: 900;
 			letter-spacing: 0.075em;
 			list-style: none;
@@ -4387,7 +4391,7 @@ input, select, textarea {
 		position: relative;
 		color: rgba(255, 255, 255, 0.25);
 		cursor: default;
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-family: 'Ebrima', sans-serif;
 		font-size: 0.8rem;
 		font-weight: 900;
 		letter-spacing: 0.075em;
