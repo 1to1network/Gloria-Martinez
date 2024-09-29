@@ -2592,6 +2592,29 @@ input, select, textarea {
 
 /* Image */
 
+/* Este es el CSS para pantallas grandes (escritorio), donde no necesitas hacer cambios */
+.imgimg {
+	width: 20%;
+	/* otros estilos */
+  }
+
+  .imgimg2 {
+	width: 25%;
+	/* otros estilos */
+  }
+  
+  @media screen and (max-width: 767px) {
+	/* Esto aplicará estilos específicos para pantallas de móviles */
+	.imgimg {
+	  width: 35%; /* Aumenta el tamaño de las imágenes en la versión móvil */
+	}
+
+	.imgimg2 {
+		width: 49%; /* Aumenta el tamaño de las imágenes en la versión móvil */
+	  }
+  }
+  
+
 	.image {
 		border: 0;
 		display: inline-block;
